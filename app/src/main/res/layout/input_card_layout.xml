@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:gravity="center"
+            android:text="Mood"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="21sp" />
+
+        <LinearLayout
+            android:layout_below="@id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mood_negative_image_view"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="2dp"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/ic_blood" />
+
+            <ImageView
+                android:id="@+id/mood_average_image_view"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:padding="2dp"
+                android:src="@drawable/ic_tampon" />
+
+            <ImageView
+                android:id="@+id/mood_positive_image_view"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:padding="2dp"
+                android:src="@drawable/ic_blood" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

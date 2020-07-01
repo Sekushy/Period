@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/card_image_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp"
+            android:src="@drawable/ic_blood" />
+
+        <TextView
+            android:id="@+id/history_title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/card_image_view"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Cycle MM/YYYY"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/period_duration_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/history_title_text_view"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/card_image_view"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Summary: Period Duration"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/mood_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/period_duration_text_view"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/card_image_view"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Summary: Mood"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/nausea_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mood_text_view"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/card_image_view"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Summary: Nausea"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pain_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nausea_text_view"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/card_image_view"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Summary: Pain"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

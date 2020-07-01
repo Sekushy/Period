@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "717194080829",
+    "firebase_url": "https://period-1d4b7.firebaseio.com",
+    "project_id": "period-1d4b7",
+    "storage_bucket": "period-1d4b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717194080829:android:cf44819e82751a6efd7054",
+        "android_client_info": {
+          "package_name": "com.example.period"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717194080829-1re2tabst9ojcpd1qc5kmf096al45h09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.period",
+            "certificate_hash": "d17c9c8d973f2b36a43d324cc3401255189fe641"
+          }
+        },
+        {
+          "client_id": "717194080829-rj2nfl3ki4r5ho8jigv731dd3bsjusov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4U9Cl3w5EqyAQ0Sybc6Ehd1T7AUJvJlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717194080829-rj2nfl3ki4r5ho8jigv731dd3bsjusov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
